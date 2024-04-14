@@ -49,6 +49,7 @@ RUN apt-get update \
     tesseract-ocr-rus \
     tesseract-ocr-tur \
     tesseract-ocr-chi-sim \
+    ocrmypdf \
   && rm -rf /var/lib/apt/lists/*;
 
 # Core image
